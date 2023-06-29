@@ -1,0 +1,15 @@
+[
+  {
+    "url": "#",
+    "name": "Categories",
+    "dropdown": true,
+    "link": false
+  },
+  {
+    "url": "/cart",
+    "name": "Products",
+    "icon": "Cart",
+    "link": true,
+    "dropdown": false
+  }
+]

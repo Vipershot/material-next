@@ -67,7 +67,11 @@ export default function ButtonAppBar({ brand, listLinks }) {
             href={`/`}
           >
             <Image alt="brand" height={40} width={40} src={"/brand.png"} />
-            <Typography sx={{ marginLeft: 2 }}>My Landing Store</Typography>
+            <Typography
+              sx={{ marginLeft: 2, display: { md: "inline", xs: "none" } }}
+            >
+              My Landing Store
+            </Typography>
           </Link>
           <Box>
             <Menu

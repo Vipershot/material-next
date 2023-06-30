@@ -55,8 +55,8 @@ export default function SpanningTable() {
                           margin: "5px",
                           position: "relative",
                           display: "flex",
-                          padding: 4,
-                          gap: 5,
+                          padding: { md: 5, xs: 1 },
+                          gap: { md: 5, xs: 2 },
                         }}
                       >
                         <Box>

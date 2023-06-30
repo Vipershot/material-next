@@ -45,10 +45,11 @@ export default function Home() {
                 justifyContent: "space-between",
                 alignItems: "center",
                 gap: 2,
+                flexWrap: "wrap",
               }}
               my={8}
             >
-              <Typography variant="h3">Our Products</Typography>
+              <Typography variant="h4">Our Products</Typography>
               <Box>
                 <TextField
                   id="outlined-number"
